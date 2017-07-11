@@ -64,7 +64,7 @@ def create_vocabulary_lookup_table(filename, default_value=None):
   """Creates a lookup table for a vocabulary file.
 
   Args:
-    filename: Path to a vocabulary file containg one word per line.
+    filename: Path to a vocabulary file containing one word per line.
       Each word is mapped to its line number.
     default_value: UNK tokens will be mapped to this id.
       If None, UNK tokens will be mapped to [vocab_size]
